@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Code+Pro:wght@300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(185, 184, 184);
+    font-family: "Abril Fatface", cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /*background-color: rgb(0, 119, 255);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 53px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Abril Fatface", cursive;
+    font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-family: "Abril Fatface", cursive;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: "Abril Fatface", Courier, monospace;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: azure;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: dodgerblue;
+}
+
+.devPic img {
+    width: 200px;
+    height: 58vh;
+    border-radius: 0px;
+    position:sticky
+    display:static;
+}
+
+.contactform {
+    font-family: sans-serif;
+    padding-top: 144px;
+    padding: 0 34px;
+}
+
+.contactform h1 {
+    font-family: "Times New Roman", Times, serif;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check-input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blogcontainer h1 {
+    font-family: 'sans-serif';
+    margin: 23px;
+}
+
+.blogItem p {
+    font-family: 'fira Sans';
+}
+
+.intro h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 12px;
+
+}
+
+.intro p {
+    font-family: sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellow;
+}
+
+.sixty {
+    width: 90px;
+    background-color: blue;
+}
+.sidebargo
+{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px; 
+}
+
+.cross{
+    margin-left: 85px;
+}
+@media (max-width: 800px) {
+    
+    *{
+        /* background-color: rgb(236, 166, 166) */
+    }
+    /* .sidebar
+    {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+    */
+}
